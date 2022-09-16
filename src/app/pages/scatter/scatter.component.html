@@ -1,0 +1,18 @@
+<div class="col mt-5">
+  <div class="card p-5">
+    <div class="card-body p-1 m-5">
+      <div class="chart-tile">
+        Scatter Chart Example
+      </div>
+      <div class="d-flex justify-content-center">
+        <canvas baseChart
+                height="400px"
+                width="700px"
+                [datasets]="scatterChartDatasets"
+                [options]="scatterChartOptions"
+                [type]="'scatter'">
+        </canvas>
+      </div>
+    </div>
+  </div>
+</div>

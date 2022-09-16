@@ -1,0 +1,9 @@
+.header {
+  height: 72px;
+  padding: 20px 0 0 15px;
+  border-bottom: 2px solid rgba(22, 42, 76, 0.15);
+}
+
+h1 {
+  text-align: center;
+}

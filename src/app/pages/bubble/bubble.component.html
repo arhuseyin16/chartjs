@@ -1,0 +1,19 @@
+<div class="col mt-5">
+  <div class="card p-5">
+    <div class="card-body p-1 m-5">
+      <div class="chart-tile">
+        Bubble Chart Example
+      </div>
+      <div class="d-flex justify-content-center">
+        <canvas baseChart
+                height="400px"
+                width="700px"
+                [datasets]="bubbleChartDatasets"
+                [options]="bubbleChartOptions"
+                [legend]="bubbleChartLegend"
+                [type]="'bubble'">
+        </canvas>
+      </div>
+    </div>
+  </div>
+</div>
